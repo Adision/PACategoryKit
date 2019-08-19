@@ -8,6 +8,8 @@
 
 #import "PAViewController.h"
 
+#import "NSString+HUString.h"
+
 @interface PAViewController ()
 
 @end
@@ -17,7 +19,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+
+    NSString*str = @"abcdefg";
+    
+    NSString*subStr = [str substringToIndex:100];
+    NSLog(@"subStr:%@",subStr);
+
 }
 
 - (void)didReceiveMemoryWarning

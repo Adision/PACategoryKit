@@ -12,7 +12,6 @@
 		391536928959DB1CD85B5DD14149C5B8 /* NSString+HUString.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCDA33416FB3F7948DB837BE8617E36 /* NSString+HUString.m */; };
 		4ABF546E7BEFA800A6EE93D4D700142F /* Pods-PACategoryKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A53ACFDA3996CC6E3BD74B1F2B273A4C /* Pods-PACategoryKit_Example-dummy.m */; };
 		503AF9E1C831CFDAA4A7851D24F0CD51 /* NSArray+Wgarray.h in Headers */ = {isa = PBXBuildFile; fileRef = AB9750BAACEE7466655CB9A1B4F6F274 /* NSArray+Wgarray.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6A742AEBBD150D0E3F0F6753AE626A3D /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = A08EB65EBB6495AAA5A8B7433A55CCCF /* ReplaceMe.m */; };
 		79E34999E4ED58F3332F3065FAA282B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		815CBB8DEB35E0E4DD162117445F117D /* Pods-PACategoryKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F7A19FF3EC70D5C35D97FD7FDB12635A /* Pods-PACategoryKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		86C488D7F130EB6CA1B6F3ABF32A47DC /* UIAlertController+HuAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 495E90D06F621E7741D0062986B87026 /* UIAlertController+HuAlert.m */; };
@@ -64,7 +63,6 @@
 		8423FF26745DA9B248A3D1D70AB0E554 /* PACategoryKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PACategoryKit-dummy.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9A0431A7CD2421BD42B4B2E40BCC67DF /* Pods-PACategoryKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PACategoryKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		A08EB65EBB6495AAA5A8B7433A55CCCF /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = PACategoryKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		A53ACFDA3996CC6E3BD74B1F2B273A4C /* Pods-PACategoryKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PACategoryKit_Example-dummy.m"; sourceTree = "<group>"; };
 		AB9750BAACEE7466655CB9A1B4F6F274 /* NSArray+Wgarray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+Wgarray.h"; sourceTree = "<group>"; };
 		AD5653F75723553094BB2833171B4507 /* Pods-PACategoryKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PACategoryKit_Tests-resources.sh"; sourceTree = "<group>"; };
@@ -117,7 +115,6 @@
 		0C051FEE3BB37F563D47A1C5AC9C61BC /* PACategoryKit */ = {
 			isa = PBXGroup;
 			children = (
-				A08EB65EBB6495AAA5A8B7433A55CCCF /* ReplaceMe.m */,
 				2A8C04E92B3BF3F2B9F2D5E589A07CF6 /* categoryFile */,
 				BB514C7753F839DDE0A92C1DFD313FC5 /* Pod */,
 				A577EC0AE1B81054E2ACB35C0C17F27C /* Support Files */,
@@ -411,7 +408,6 @@
 				C5F1C5D48FFB017EE76B2E20E3620DB3 /* NSArray+Wgarray.m in Sources */,
 				391536928959DB1CD85B5DD14149C5B8 /* NSString+HUString.m in Sources */,
 				EA38B09D7EC0C9246754D09D3D40A185 /* PACategoryKit-dummy.m in Sources */,
-				6A742AEBBD150D0E3F0F6753AE626A3D /* ReplaceMe.m in Sources */,
 				86C488D7F130EB6CA1B6F3ABF32A47DC /* UIAlertController+HuAlert.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
