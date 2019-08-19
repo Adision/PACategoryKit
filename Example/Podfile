@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'PACategoryKit_Example' do
+  pod 'PACategoryKit', :path => '../'
+
+  target 'PACategoryKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

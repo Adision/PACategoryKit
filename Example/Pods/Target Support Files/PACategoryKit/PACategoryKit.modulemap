@@ -1,0 +1,6 @@
+framework module PACategoryKit {
+  umbrella header "PACategoryKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

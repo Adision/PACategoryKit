@@ -1,0 +1,16 @@
+PODS:
+  - PACategoryKit (0.1.0)
+
+DEPENDENCIES:
+  - PACategoryKit (from `../`)
+
+EXTERNAL SOURCES:
+  PACategoryKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PACategoryKit: 0a330405a440e3545fbdeb1102beab969300e857
+
+PODFILE CHECKSUM: 5263176c05844baf949a97ee7979ed542fdb63f8
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,22 @@
+{
+  "name": "PACategoryKit",
+  "version": "0.1.0",
+  "summary": "A short description of PACategoryKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/panxiangxing/PACategoryKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "panxiangxing": "panxiangxing@example.com"
+  },
+  "source": {
+    "git": "https://github.com/panxiangxing/PACategoryKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "PACategoryKit/Classes/**/*"
+}
